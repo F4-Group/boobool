@@ -1,4 +1,4 @@
-# boobool [![NPM Version][npm-image]][npm-url] 
+# boobool [![NPM Version][npm-image]][npm-url]  [![Build Status][travis-image]][travis-url] 
 
 > Convert a boolean from a string, keeping undefined and null values, to be able to use defaultsTo
 
@@ -43,3 +43,5 @@ boobool('', {defaultTo: true});  //-> true
 
 [npm-image]: https://img.shields.io/npm/v/boobool.svg
 [npm-url]: https://npmjs.com/package/boobool
+[travis-image]: https://img.shields.io/travis/F4-Group/boobool.svg
+[travis-url]: https://travis-ci.org/F4-Group/boobool
