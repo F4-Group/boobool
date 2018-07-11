@@ -1,0 +1,23 @@
+module.exports = boobool;
+
+/**
+ *
+ * @param {String|undefined|null} value the value to parse
+ * @param {object} [options]
+ * @param {*} [options.defaultValue=undefined] default value when a boolean was not found
+ */
+function boobool(value, options) {
+    const defaultValue = options && options.defaultValue || undefined;
+    if (value == null) {
+        return defaultValue;
+    } else {
+        const valueAsString = String(value).trim().toLowerCase();
+        if (valueAsString === "true") {
+            return true;
+        } else if (valueAsString === "false") {
+            return false;
+        } else {
+            return defaultValue;
+        }
+    }
+}

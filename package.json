@@ -1,0 +1,14 @@
+{
+    "name": "boobool",
+    "description": "Convert a boolean from a string, keeping undefined and null values, to be able to use defaultsTo",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": "F4-Group/boobool",
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
