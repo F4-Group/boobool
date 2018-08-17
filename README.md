@@ -8,7 +8,7 @@
 * Ignores leading and trailing whitespace
 * Parses `undefined` and `null` as `undefined`
 * Returns `undefined` when a boolean could not be found
-* Configurable `defaultTo` value (replaces `undefined`) 
+* Configurable `defaultValue` (replaces `undefined`) 
 
 ## Installation
 
@@ -19,7 +19,7 @@ npm install boobool
 
 ## Usage
 
-`parseBoolean(string[, defaultValue])`
+`parseBoolean(string[, {defaultValue}])`
 
 ```js
 const boobool = require('boobool');
@@ -37,7 +37,7 @@ boobool(undefined);  //-> undefined
 
 Optionally, you can override the default value:
 ```js
-boobool('', {defaultTo: true});  //-> true
+boobool('', {defaultValue: true});  //-> true
 ```
 
 
