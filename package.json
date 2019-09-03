@@ -1,7 +1,7 @@
 {
     "name": "boobool",
     "description": "Convert a boolean from a string, keeping undefined and null values, to be able to use defaultsTo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "repository": "F4-Group/boobool",
     "devDependencies": {

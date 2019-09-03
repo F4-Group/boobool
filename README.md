@@ -1,6 +1,6 @@
 # boobool [![NPM Version][npm-image]][npm-url]  [![Build Status][travis-image]][travis-url] 
 
-> Convert a boolean from a string, keeping undefined and null values, to be able to use defaultsTo
+> Convert a boolean from a string, keeping undefined and null values
 
 * Parses "true" as `true`
 * Parses "false" as `false`
