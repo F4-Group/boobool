@@ -27,5 +27,7 @@ describe("Boobool", () => {
         expect(boobool("foo", {defaultValue: 123})).to.equal(123);
         expect(boobool("true", {defaultValue: 123})).to.be.true;
         expect(boobool("false", {defaultValue: 123})).to.be.false;
+        expect(boobool(null, {defaultValue: true})).to.be.true;
+        expect(boobool(null, {defaultValue: false})).to.be.false;
     });
 });
