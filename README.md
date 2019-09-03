@@ -19,7 +19,7 @@ npm install boobool
 
 ## Usage
 
-`parseBoolean(string[, {defaultValue}])`
+`boobool(string[, {defaultValue}])`
 
 ```js
 const boobool = require('boobool');
