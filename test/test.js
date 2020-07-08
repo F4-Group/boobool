@@ -5,6 +5,9 @@ const boobool = require("../");
 
 describe("Boobool", () => {
     it("works", () => {
+        expect(boobool(true)).to.be.true;
+        expect(boobool(false)).to.be.false;
+
         expect(boobool("true")).to.be.true;
         expect(boobool("false")).to.be.false;
         expect(boobool(" true ")).to.be.true;
